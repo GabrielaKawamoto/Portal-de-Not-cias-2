@@ -42,10 +42,22 @@ h1,h2,h3{
     color: inherit;
 }
 
+.container{
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
 .grid{
     display: grid;
 }
 
 .grid-flow-col{
     grid-auto-flow: column;
+}
+
+#secundary{
+    padding-block: 14px;
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
 }
